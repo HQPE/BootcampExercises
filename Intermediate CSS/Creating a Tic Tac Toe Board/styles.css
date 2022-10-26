@@ -1,0 +1,25 @@
+body{
+    background-color: #bdc3c7;
+    text-align: center;
+}
+
+
+table {
+    margin: 0 auto;
+    border-spacing: 0;
+  }
+
+td{
+    width: 100px;
+    height: 100px
+}
+
+td:nth-of-type(2){
+    border-left: solid black;
+    border-right: solid black;
+}
+
+tr:nth-of-type(2) td{
+    border-bottom: solid black;
+    border-top: solid black;
+}
